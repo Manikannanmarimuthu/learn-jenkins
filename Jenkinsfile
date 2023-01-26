@@ -12,13 +12,13 @@ pipeline {
 
     stage('Hello1') {
       steps {
-        echo 'Hello World'
+        echo 'Hello World 1'
       }
     }
 
     stage('Hello2') {
       steps {
-        echo 'Hello World'
+        echo 'Hello World 2'
       }
     }
 
@@ -27,7 +27,7 @@ pipeline {
 
   post {
     always {
-      echo "sending email"
+      echo "sending email Jekins Test"
     }
   }
 
